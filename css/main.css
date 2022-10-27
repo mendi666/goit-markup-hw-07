@@ -396,7 +396,7 @@ body {
   margin-right: 97px;
 }
 
-span.header-logo--black {
+span.header-logo__span--black {
   color: var(--header-link-second-color);
 }
 
@@ -482,19 +482,19 @@ span.header-logo--black {
   display: flex;
 }
 
-.benefits-list__icon--satellite::before {
+.benefits-list__item--satellite::before {
   background-image: url(../images/icon-satellite.svg);
 }
 
-.benefits-list__icon--clock::before {
+.benefits-list__item--clock::before {
   background-image: url(../images/icon-clock.svg);
 }
 
-.benefits-list__icon--laptop::before {
+.benefits-list__item--laptop::before {
   background-image: url(../images/icon-laptop.svg);
 }
 
-.benefits-list__icon--astrounaut::before {
+.benefits-list__item--astrounaut::before {
   background-image: url(../images/icon-astrounaut.svg);
 }
 
