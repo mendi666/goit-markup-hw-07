@@ -22,38 +22,42 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="header">
-      <div class="container header-container">
-        <nav class="link-nav">
-          <a class="header-main-link link" href=""
-            >Web<span class="second-color-header">Studio</span></a
+      <div class="container header__container">
+        <nav class="header__navigation">
+          <a class="header-logo" href=""
+            >Web<span class="header-logo--black">Studio</span></a
           >
-          <ul class="header-list list">
-            <li class="header-item">
-              <a class="header-link link current" href="">Studio</a>
+          <ul class="header-list">
+            <li class="header-list__item">
+              <a class="header-list__link current" href="">Studio</a>
             </li>
-            <li class="header-item">
-              <a class="header-link link" href="./portfolio.html">Portfolio</a>
+            <li class="header-list__item">
+              <a class="header-list__link" href="./portfolio.html">Portfolio</a>
             </li>
-            <li class="header-item">
-              <a class="header-link link" href="">Contacts</a>
+            <li class="header-list__item">
+              <a class="header-list__link" href="">Contacts</a>
             </li>
           </ul>
         </nav>
-        <ul class="header-contacts list">
-          <li class="header-contact-item">
-            <a class="header-contact link" href="mailto:info@devstudio.com">
-              <svg class="header-icon header-icon-envelope">
+        <ul class="header-contacts">
+          <li class="header-contacts__item">
+            <a class="header-contacts__link" href="mailto:info@devstudio.com">
+              <svg
+                class="header-contacts__icon header-contacts__icon--envelope"
+              >
                 <use href="./images/symbol-defs.svg#icon-envelope"></use></svg
               >info@devstudio.com</a
             >
           </li>
-          <li class="header-contact-item">
-            <a class="header-contact link" href="tel:+380961111111"
-              ><svg class="header-icon header-icon-smartphone">
+          <li class="header-contacts__item">
+            <a class="header-contacts__link" href="tel:+380961111111"
+              ><svg
+                class="header-contacts__icon header-contacts__icon--smartphone"
+              >
                 <use href="./images/symbol-defs.svg#icon-smartphone"></use></svg
               >+38 096 111 11 11</a
             >
@@ -71,32 +75,32 @@
         </div>
       </section>
       <section class="benefits">
-        <div class="container benefits-container">
+        <div class="container benefits__container">
           <h2 class="visually-hidden">Benefits</h2>
           <ul class="benefits-list">
-            <li class="benefits-item icon-satellite">
-              <h3 class="benefits-name">ATTENTION TO DETAILS</h3>
+            <li class="benefits-list__item benefits-list__icon--satellite">
+              <h3 class="benefits-list__name">ATTENTION TO DETAILS</h3>
               <p class="benefits-text">
                 We go into all the details and processes of your business to
                 develop a customized solution.
               </p>
             </li>
-            <li class="benefits-item icon-clock">
-              <h3 class="benefits-name">PUNCTUALITY</h3>
+            <li class="benefits-list__item benefits-list__icon--clock">
+              <h3 class="benefits-list__name">PUNCTUALITY</h3>
               <p class="benefits-text">
                 With us, you can feel safe and secure. An important principle of
                 the company: respect your time and respect the agreed deadlines.
               </p>
             </li>
-            <li class="benefits-item icon-laptop">
-              <h3 class="benefits-name">PLANNING</h3>
+            <li class="benefits-list__item benefits-list__icon--laptop">
+              <h3 class="benefits-list__name">PLANNING</h3>
               <p class="benefits-text">
                 You will be able to observe and participate in every phase of
                 solution development and implementation.
               </p>
             </li>
-            <li class="benefits-item icon-astrounaut">
-              <h3 class="benefits-name">MODERN TECHNOLOGIES</h3>
+            <li class="benefits-list__item benefits-list__icon--astrounaut">
+              <h3 class="benefits-list__name">MODERN TECHNOLOGIES</h3>
               <p class="benefits-text">
                 We use innovative tools to solve assigned tasks. It's time to
                 simplify work processes.
@@ -107,34 +111,34 @@
       </section>
       <section class="whatwedo">
         <div class="container">
-          <h2 class="whatwedo-title">What we do</h2>
-          <ul class="whatwedo-list list">
-            <li class="whatwedo-item">
+          <h2 class="whatwedo__title">What we do</h2>
+          <ul class="whatwedo-list">
+            <li class="whatwedo-list__item">
               <img
                 src="./images/img-1.jpg"
                 alt="somebody typing on keyboard connected to tablet"
                 width="370"
                 height="294"
               />
-              <div class="whatwedo-box">DESKTOP APPS</div>
+              <div class="whatwedo-list__box">DESKTOP APPS</div>
             </li>
-            <li class="whatwedo-item">
+            <li class="whatwedo-list__item">
               <img
                 src="./images/img-2.jpg"
                 alt="somebody looking at phone in front of laptop"
                 width="370"
                 height="294"
               />
-              <div class="whatwedo-box">MOBILE APPS</div>
+              <div class="whatwedo-list__box">MOBILE APPS</div>
             </li>
-            <li class="whatwedo-item">
+            <li class="whatwedo-list__item">
               <img
                 src="./images/img-3.jpg"
                 alt="somebody looking at tablet choosing a color in it "
                 width="370"
                 height="294"
               />
-              <div class="whatwedo-box">DESIGN SOLUTIONS</div>
+              <div class="whatwedo-list__box">DESIGN SOLUTIONS</div>
             </li>
           </ul>
         </div>
@@ -377,20 +381,20 @@
     <footer class="footer">
       <div class="container footer-container">
         <div class="footer-information">
-          <a class="footer-link link" href=""
+          <a class="footer-link" href=""
             >Web<span class="second-color-footer">Studio</span></a
           >
           <address>
-            <ul class="footer-list list">
+            <ul class="footer-list">
               <li class="footer-text">695 Park Ave, New York, NY 10065</li>
               <li class="footer-text">United States</li>
               <li>
-                <a class="footer-contact link" href="mailto:info@devstudio.com"
+                <a class="footer-contact" href="mailto:info@devstudio.com"
                   >info@devstudio.com</a
                 >
               </li>
               <li>
-                <a class="footer-contact link" href="tel:+380961111111"
+                <a class="footer-contact" href="tel:+380961111111"
                   >+38 096 111 11 11</a
                 >
               </li>
